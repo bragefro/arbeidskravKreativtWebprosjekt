@@ -3,22 +3,20 @@ body {
 }
 .gridpool {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 50px 50px;
 	background-color: #000000;
-	align-items: center;
 	position: absolute;
 }
 .banner {
 	font-family: fantasy;
 	font-size: 50px;
+	text-align: center;
+	padding: 15px;
 	color: #ffffff;
 	background-color: #000000;
 	border: 5px solid #ff0000;
-	grid-column-start: 1;
-	grid-column-end: 5;
-	text-align: center;
-	padding: 20px;
+	grid-column:1/-1;
 }
 .infocard {
 	height: 550px;
@@ -37,7 +35,5 @@ body {
 	width: 675px;
 	background-color: #000000;
 	border: 5px solid #ff0000;
-	grid-row-start: 3;
-	grid-column-start: 2; 
-	grid-column-end: 4;
+	grid-column: 2/4;
 }
