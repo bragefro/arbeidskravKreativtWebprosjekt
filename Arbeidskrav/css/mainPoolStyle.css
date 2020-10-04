@@ -1,0 +1,38 @@
+body {
+	background-color: #000000;
+}
+.gridpool {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 50px 50px;
+	background-color: #000000;
+}
+.banner {
+	font-family: fantasy;
+	font-size: 32px;
+	color: #ffffff;
+	background-color: #000000;
+	border: 5px solid #ff0000;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	text-align: center;
+	padding: 25px;
+}
+.infocard {
+	height: 550px;
+	width: 275px;
+	padding: 15px;
+	background-color: #000000;
+	color: #ffffff;
+	border: 5px solid #ff0000;
+	font-family: fantasy;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+iframe {
+	background-color: #000000;
+	border: 5px solid #ff0000;
+	grid-column-start: 2; 
+	grid-column-end: 5;
+}
